@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Здесь супер-крутой заголовок статьи. Можно еще дату жахнуть 14.11.16</title>
+
+	<style>
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			text-decoration: none;
+		}
+		body {
+			font-family: 'Segoe UI';
+			background-color: #f8f8f8;
+		}
+
+		header {
+			background-blend-mode: overlay;
+			background-color: rgba(0, 0, 0, 0.7);
+			background-image: url(http://ppsparents.com/wp-content/uploads/2015/12/tiger-wallpaper-hd-widescreen-fresh-with-photos-of-tiger-wallpaper-hd-wallpaper-new-at-wallpapers.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 500px;
+			width: 100%;
+			position: relative;
+			margin: auto;
+		}
+		header h1 {
+			color: #ffffff;
+			text-align: center;
+			font-size: 48px;
+			font-family: 'Segoe UI';
+			font-weight: 100;
+			text-transform: uppercase;
+			height: 500px;
+			vertical-align: middle;
+			display: table-cell;
+		}
+		.head-title {
+			display: table;
+			height: 500px;
+			vertical-align: middle;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 0px 5px;
+		}
+
+		.post {
+			padding: 30px;
+			margin: 100px 0;
+			background-color: #ffffff;
+			border-top: 3px solid #c5b885;
+			border-radius: 0px 0px 10px 10px;
+			box-shadow: 0px 3px 24px -8px lightgrey;
+		}
+		.post p {
+			font-weight: 400;
+			margin: 10px 0px;
+			font-size: 24px;
+			color: #333333;
+		}
+		p.code {
+			background-color: #f8f8f8;
+			border: 1px solid #f5f5f5;
+			padding: 30px;
+			margin: 15px 0px;
+			font-weight: bold;
+			font-size: 18px;
+			white-space: pre-wrap;
+			border-radius: 10px;
+		}
+		p.image {
+			padding: 30px 0px;
+			margin: 15px 0px;
+		}
+		.image img {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+			border-radius: 10px;
+			box-shadow: 0px 15px 25px -15px rgba(0,0,0,0.5);
+		}
+		p.button {
+			padding: 30px 0px;
+			margin-right: 25px;
+			font-weight: bold;
+			white-space: pre-wrap;
+			font-size: 18px;
+			display: inline-block;
+		}
+
+		.number {
+			font-family: 'Times New Roman';
+			font-size: 60px;
+			color: #c5b885;
+			width: 100px;
+			height: auto;
+			text-align: right;
+		}
+	
+		a.download-button {
+			text-transform: uppercase;
+			font-weight: 600;
+			color: #c5b885;
+			padding: 8px 25px;
+			background-color: #ffffff;
+			border: 1px solid #c5b885;
+			box-shadow: 0px 0px 0px 0px transparent;
+			border-radius: 100px;
+			transition-duration: .2s;
+			transition-timing-function: ease-out;
+		}
+		a.download-button:hover {
+			color: #ffffff;
+			background-color: #c5b885;
+			border: 1px solid #c5b885;
+			box-shadow: 0px 10px 25px -8px #c5b885;
+		}
+
+		#left-col 	{float: left; display: block;}
+		#right-col 	{margin-left: 15%;}
+
+		@media screen and (max-width: 800px) {
+			#left-col {
+				display: none;
+			}
+			#right-col {
+				margin-left: 0px;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+
+			<div class="head-title">
+				<h1>Здесь супер-крутой заголовок статьи. Можно еще дату жахнуть 14.11.16</h1>
+			</div>
+	
+	</header>
+
+	<section class="container">
+
+		<!--Шаг 01.-->
+		<div id="left-col">
+			<div class="number">01.</div>
+		</div>
+		<div id="right-col" class="post">
+			<p>Здесь я пишу какой-то длинный текст, что-то рассказываю и предлагаю кнопки для быстрого перехода и загрузки чего-то, например Git или Node.js.</p>
+			<p class="button"><a class="download-button" href="https://nodejs.org/en/">Скачать Node.js</a></p>
+			<p class="button"><a class="download-button" href="https://git-scm.com/">Скачать Git</a></p>
+		</div>
+		<!--Шаг 02.-->
+		<div id="left-col">
+			<div class="number">02.</div>
+		</div>
+		<div id="right-col" class="post">
+			<p>Здесь пример кода. Вернее разметка каталогов.</p>
+			<p class="code">Template 
+-app 
+--css 
+--fonts 
+--img 
+--js 
+--sass 
+-dist 
+-node_modules 
+-gulpfile.js 
+-package.json
+			</p>
+		</div>
+		<!--Шаг 03.-->
+		<div id="left-col">
+			<div class="number">03.</div>
+		</div>
+		<div id="right-col" class="post">
+			<p>А вот здесь картиночка. Как же без картиночек?</p>
+			<p class="image"><img src="http://www.zastavki.com/pictures/1920x1200/2011/Animals_Cats_Cat_in_the_glasses_032992_.jpg" alt="Изображение"></p>
+		</div>
+		<!--Шаг 04.-->
+		<div id="left-col">
+			<div class="number">04.</div>
+		</div>
+		<div id="right-col" class="post">
+			<p>А вот здесь пример html кода.</p>
+			<p class="code">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; 
+&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+	&lt;head&gt;
+  	&lt;meta http-equiv=&quot;Content-Type&quot; 
+    content=&quot;text/html; charset=utf-8&quot; /&gt;
+   	&lt;title&gt;Формула этанола&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  	&lt;p&gt;Формула этанола 
+  	С&lt;sub&gt;2&lt;/sub&gt;Н&lt;sub&gt;5&lt;/sub&gt;ОН&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</p>
+		</div>
+		<!--Шаг 05.-->
+		<div id="left-col">
+			<div class="number">05.</div>
+		</div>
+		<div id="right-col" class="post">
+			<p>Еще сюда можно вставлять видосики.</p>
+			<p class="video">
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/oTA4pz8eTTU" frameborder="0" allowfullscreen></iframe>
+			</p>
+		</div>
+
+	</section>
+
+</body>
+
+</html>
