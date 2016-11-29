@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Tema</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+
+
+	@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&subset=cyrillic');
+	html, body {margin: 0; padding: 0;}
+	body {
+		font-family: 'Roboto', sans-serif;
+		-webkit-font-smoothing: subpixel-antialiased !important;
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility:    hidden;
+		-ms-backface-visibility:     hidden;
+		background: linear-gradient(52deg, #000441, #4b4fff);
+		background-size: 400% 400%;
+
+		-webkit-animation: AnimationName 30s ease infinite;
+		-moz-animation: AnimationName 30s ease infinite;
+		animation: AnimationName 30s ease infinite;
+	}
+	.material-icons {
+		line-height: 0;
+		display: inline-flex;
+    vertical-align: middle;
+    padding-bottom: 6px;
+    padding-right: 6px;
+	}
+	.avatar {
+		width: 128px; 
+		height: 128px; 
+		border: 3px solid white;
+		border-radius: 100%;
+		box-shadow: 0 10px 60px rgba(0,0,0,0.5);
+	}
+	.content {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		display: table;
+	}
+	.text {
+		width: 100%;
+		height: 100vh;
+		color: #fff;
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	ul.contacts {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		border: 1px solid #fff;
+		border-radius: 6px;
+		background: #fff;
+		color: #333;
+		padding: 5px 15px;
+		max-width: 120px;
+		margin: 30px auto 30px auto;
+		text-align: left;
+	}
+	.text h1 {
+		font-weight: 100;
+		font-size: 34px;
+		text-transform: uppercase;
+	}
+	.text h3 {
+		font-weight: 100;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	.text p {
+		font-weight: 400;
+		padding: 0;
+	}
+	/********** ANIMATION: START text-animation **********/
+	.fadeIn {
+		-webkit-animation: fadeIn 1s ease;
+		-moz-animation: fadeIn 1s ease;
+		animation: fadeIn 1s ease;
+		-webkit-animation-fill-mode: forwards;
+		-moz-animation-fill-mode: forwards;
+		-o-animation-fill-mode: forwards;
+		animation-fill-mode: forwards;
+	}
+	.avatar.fadeIn {
+		opacity: 0;
+		-webkit-animation-delay: 100ms;
+		-moz-animation-delay: 100ms;
+		-o-animation-delay: 100ms;
+		animation-delay: 100ms;
+	}
+	.title.fadeIn {
+		opacity: 0;
+		-webkit-animation-delay: 200ms;
+		-moz-animation-delay: 200ms;
+		-o-animation-delay: 200ms;
+		animation-delay: 200ms;
+	}
+	.description.fadeIn {
+		opacity: 0;
+		-webkit-animation-delay: 300ms;
+		-moz-animation-delay: 300ms;
+		-o-animation-delay: 300ms;
+		animation-delay: 300ms;
+	}	
+	.mail.fadeIn {
+		opacity: 0;
+		-webkit-animation-delay: 400ms;
+		-moz-animation-delay: 400ms;
+		-o-animation-delay: 400ms;
+		animation-delay: 400ms;
+	}
+	.vk.fadeIn {
+		opacity: 0;
+		-webkit-animation-delay: 500ms;
+		-moz-animation-delay: 500ms;
+		-o-animation-delay: 500ms;
+		animation-delay: 500ms;
+	}
+	.fb.fadeIn {
+		opacity: 0;
+		-webkit-animation-delay: 600ms;
+		-moz-animation-delay: 600ms;
+		-o-animation-delay: 600ms;
+		animation-delay: 600ms;
+	}
+	.fb.fadeIn {
+		opacity: 0;
+		-webkit-animation-delay: 700ms;
+		-moz-animation-delay: 700ms;
+		-o-animation-delay: 700ms;
+		animation-delay: 700ms;
+	}
+	@-webkit-keyframes fadeIn {
+		0%{transform: translate(0,15px); opacity: 0;}
+		100%{transform: translate(0,0); opacity: 1;}
+	}
+	@-moz-keyframes fadeIn {
+		0%{transform: translate(0,15px); opacity: 0;}
+		100%{transform: translate(0,0); opacity: 1;}
+	}
+	@keyframes fadeIn { 
+		0%{transform: translate(0,15px); opacity: 0;}
+		100%{transform: translate(0,0); opacity: 1;}
+	}
+	/********** ANIMATION: END text-animation **********/
+
+	/********** ANIMATION: START gradientBg **********/
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+	/********** ANIMATION: END gradientBg **********/
+</style>
+<body>
+	<div class="container">
+		<div class="content">
+			<div class="text">
+				<img class="fadeIn avatar" src="https://pp.vk.me/c837629/v837629756/626b/hbt9hlTWn8w.jpg" alt="Tema">
+				<h1 class="fadeIn title">
+					Меньшов Артем
+				</h1>
+				<h3 class="fadeIn description">Web-Master</h3>
+				<ul class="fadeIn contacts">
+					<li><p class="fadeIn mail"><i class="material-icons">mail</i>GMail</p></li>
+					<li><p class="fadeIn vk"><i class="material-icons">person_pin</i> Adress</p></li>
+					<li><p class="fadeIn fb"><i class="material-icons">person_add</i> Facebook</p></li>
+				</ul>
+				<span class="fadeIn lnr lnr-thumbs-up"></span>
+		</div>
+	</div>
+</body>
+</html>
